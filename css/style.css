@@ -1,0 +1,15 @@
+nav {
+    background-color:rgb(90, 48, 19);
+    justify-content: space-around !important;
+}
+
+#nav {   
+ font-size:large; 
+
+}
+#logo{
+    width: 50px ;
+    height: 40px ;
+    margin:7px ; 
+    color: rgb(253, 241, 222); 
+}
