@@ -13,3 +13,34 @@ nav {
     margin:7px ; 
     color: rgb(253, 241, 222); 
 }
+#demo{
+    margin: 50px 10%;
+}
+#logo{
+    width: 50px ;
+    height: 40px ;
+    margin:7px ; 
+    color: rgb(253, 241, 222); 
+}
+#logo:hover{
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+h2{
+    margin: 20px !important;
+    text-align: center;
+}
+h2:hover{
+    font-size: 36px;
+    color:rgb(90, 48, 19);
+    cursor:pointer;
+}
+#menubtn:hover{
+    font-size: 30px;
+    }
+    body{
+        background-color: rgb(253, 241, 222) !important;
+       
+    }
