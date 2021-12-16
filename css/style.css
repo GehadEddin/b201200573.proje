@@ -36,6 +36,7 @@ h2:hover{
     font-size: 36px;
     color:rgb(90, 48, 19);
     cursor:pointer;
+    text-shadow: 1px 1px 4px red;
 }
 #menubtn:hover{
     font-size: 30px;
@@ -43,4 +44,38 @@ h2:hover{
     body{
         background-color: rgb(253, 241, 222) !important;
        
+    }
+    #myhizmet{
+        text-align: center;
+        justify-content: space-evenly;
+        /* margin: 20px; */
+        color: #EEEADD;
+        background-image: url('../images/francesca.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    #hizmet{
+        justify-content: space-around;
+        border: black  2px;
+        border-style:solid;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    #hizmet h3{
+        padding: 8px;
+        color: rgb(90, 48, 19);
+        text-shadow: 2px 2px 5px red;
+    }
+    #hizmet:hover{
+        cursor: pointer;
+        position: relative ;
+        right: 10px;
+        bottom: 20px;
+        box-shadow: 4px 4px 10px 5px  rgb(92, 91, 91);
+        font-weight: bold;
+        color: rgb(90, 48, 19);
+        background-color: rgb(253, 241, 222);
+        
     }
