@@ -14,7 +14,7 @@ nav {
     color: rgb(253, 241, 222); 
 }
 #demo{
-    margin: 50px 10%;
+    margin: 20px 10%;
 }
 #logo{
     width: 50px ;
@@ -35,7 +35,7 @@ h2{
 h2:hover{
     font-size: 36px;
     color:rgb(90, 48, 19);
-    cursor:pointer;
+    cursor:default;
     text-shadow: 1px 1px 4px red;
 }
 #menubtn:hover{
@@ -45,14 +45,27 @@ h2:hover{
         background-color: rgb(253, 241, 222) !important;
        
     }
+    #whats{
+        width:60px ;
+        height: 50px ;
+        color: green ;
+        top:730px;
+        bottom: 0;
+        left: 0px ;
+        position: sticky;
+    }
+    
     #myhizmet{
         text-align: center;
         justify-content: space-evenly;
         /* margin: 20px; */
-        color: #EEEADD;
+        color: rgb(90, 48, 19);
         background-image: url('../images/francesca.jpg');
         background-attachment: fixed;
         background-size: cover;
+        padding: 100px;
+        margin-left: 0px;
+        margin-right: 0px;
         
     }
     #hizmet{
@@ -62,6 +75,8 @@ h2:hover{
         border-radius: 20px;
         padding: 20px;
         margin-bottom: 50px;
+        background-color: rgb(253, 241, 222);
+        filter: opacity(37%);
     }
     #hizmet h3{
         padding: 8px;
@@ -69,7 +84,7 @@ h2:hover{
         text-shadow: 2px 2px 5px red;
     }
     #hizmet:hover{
-        cursor: pointer;
+        cursor: default;
         position: relative ;
         right: 10px;
         bottom: 20px;
@@ -77,5 +92,144 @@ h2:hover{
         font-weight: bold;
         color: rgb(90, 48, 19);
         background-color: rgb(253, 241, 222);
+        filter: opacity(100%);
+    }
+    #konutlar{   
+        justify-content: space-evenly;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        border-radius: 40px;
+    }
+    #container{
+        filter: brightness(80%);
+        padding: 0px;
+        position: relative;
         
+    }
+    #container1{
+        filter: brightness(80%);
+        padding-right: 0px;
+        position: relative;  
+    }
+    .cont{
+        filter: brightness(80%);
+        padding: 0px;
+        position: relative;
+    }
+    .cont1{
+        filter: brightness(80%);
+        padding: 0px;
+        position: relative;      
+    }
+    .cont2{
+        filter: brightness(80%);
+        padding: 0px;
+        position: relative;    
+    }
+    .cont3{
+        filter: brightness(80%);
+        padding: 0px;
+        position: relative;
+    }
+    
+    #container:hover{
+        filter:brightness(100%);
+    }   
+    #container1:hover{
+        filter:brightness(100%);
+    }
+    .cont:hover{
+        filter:brightness(100%);
+    }
+    .cont1:hover{
+        filter:brightness(100%);
+    }
+    .cont2:hover{
+        filter:brightness(100%);
+    }
+    .cont3:hover{
+        filter:brightness(100%);
+    }
+    .content{
+        position: absolute;
+        bottom: 0; 
+        left: 0;
+        list-style: none;
+        display: none;
+        color:#d3c499 ;
+        opacity: 70%;
+        font-size: 20px;
+        background-color: rgb(92, 91, 91);
+        border-radius: 15px;
+    }
+    .content1{
+        position: absolute;
+        top:0;
+        left: 0;
+        list-style: none;
+        display: none;
+        color:#d3c499 ;
+        opacity: 70%;
+        background-color: rosybrown;
+        background-size: cover;
+        font-size: 17px;
+        background-color: rgb(92, 91, 91);
+        border-radius: 15px;
+    }
+    .content2{
+        position: absolute;
+        bottom:0; 
+        left:0;
+        list-style: none;
+        display: none;
+        color:#d3c499 ;
+        opacity: 70%;
+        background-color: rgb(92, 91, 91);
+        font-size: 17px;
+        background-color: rgb(92, 91, 91);
+        border-radius: 15px;
+    }
+    .content3{
+        position: absolute;
+        top: 0; 
+        left:0;
+        list-style: none;
+        display: none;
+        color:#d3c499 ;
+        opacity: 70%;
+        font-size: 17px;
+        background-color: rgb(92, 91, 91);
+        border-radius: 15px;
+    }
+    .content4{
+        position: absolute;
+        bottom:0 ; 
+        left: 0;
+        list-style: none;
+        display: none;
+        color:#d3c499 ;
+        opacity: 70%;
+        font-size: 17px;
+        background-color: rgb(92, 91, 91);
+        border-radius: 15px;
+    }
+    .content5{
+        position: absolute;
+        bottom:0;
+        right:0;
+        list-style: none;
+        display: none;
+        color:#d3c499 ;
+        opacity: 70%;
+        font-size: 20px;
+        background-color: rgb(92, 91, 91);
+        border-radius: 15px;
+    }
+    .dahafazla{
+        margin-top: 40px;
+        margin-left: 44%;
+    }
+    #btn:hover{
+        background-color:rgb(90, 48, 19) ;
     }
