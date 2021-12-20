@@ -233,3 +233,58 @@ h2:hover{
     #btn:hover{
         background-color:rgb(90, 48, 19) ;
     }
+    #map{
+        padding: 0px;
+        height:300px; 
+        margin-right: 80px;
+        border: 5px solid rgb(90, 48, 19); 
+        
+    }
+    #ulas{
+        background-image: url(' ../images/beautiful-sunny-cityscape.jpg') !important;
+        background-size: cover;
+        margin: 0;
+    }
+    
+    .form-check {
+        padding-left: 0 !important;
+    }
+    #foter{
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(90, 48, 19);
+       
+    }
+    #footer{
+        list-style-type: none !important;
+        text-align: center;
+        color:#EEEADD;
+        margin-bottom: 0px;
+    }
+    
+    #ins{
+        color:mediumvioletred
+    }
+    #fac:hover{
+        font-size: 20px;
+    }
+    #ins:hover{
+        font-size: 20px;
+    }
+    a.mail:link{
+        text-decoration: none;
+        
+    }
+    a.mail{
+        color:#EEEADD;
+    }
+    a.mail:hover{
+        font-size: 17px;
+        color:#d3c499;
+    }
+    #submit{
+       padding-top: 0px;
+       margin-top: 0px;
+       margin-bottom: 10px;
+      
+    }
