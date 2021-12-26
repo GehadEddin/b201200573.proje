@@ -1,3 +1,7 @@
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
 document.getElementById("submit").addEventListener("click", function() {
   let x = document.forms["myform"]["email"].value;
   let y = document.forms["myform"]["txt"].value;
