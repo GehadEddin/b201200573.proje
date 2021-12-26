@@ -1,3 +1,8 @@
+document.getElementById("submit").addEventListener("click", function() {
+  let x = document.forms["myform"]["email"].value;
+  let y = document.forms["myform"]["txt"].value;
+  let z = document.forms["myform"]["text"].value;
+  if(isNaN(x)&&isNaN(y)&&isNaN(z)) alert("Email başarılı gönderdiniz");});
 $("#container").hover(function(){
     $("#container .content ").show();
   });

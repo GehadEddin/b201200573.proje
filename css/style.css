@@ -1,6 +1,7 @@
 nav {
     background-color:rgb(90, 48, 19);
     justify-content: space-around !important;
+    margin-bottom: 30px;
 }
 
 #nav {   
@@ -287,3 +288,40 @@ h2:hover{
        margin-bottom: 10px;
       
     }
+    #caraousel{
+        margin: 15px ;
+        
+    }
+    #caraousel1{
+        margin: 15px;
+    }
+    #daireler {
+        justify-content: space-around;
+         margin-left: 0px;
+         margin-right: 0px;
+         padding: 0px !important;
+         
+         
+     }
+     
+     #detay{
+         padding-top: 15px !important;
+         padding-bottom: 10px;
+         display:inline-table;
+         text-align: center;
+         justify-content: space-around;
+         width: 100%;
+         color: rgb(90, 48, 19) ;
+     }
+     #hiden{
+         display:none;
+     }
+     #car-btn{
+         bottom: 483px;
+     }
+     #car-btn:hover{
+         background: rgba(0, 0, 0, 0.4);
+     }
+     #tabl{
+         color:rgb(90, 48, 19) ;
+     }
