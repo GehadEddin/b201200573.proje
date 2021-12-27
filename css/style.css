@@ -158,9 +158,9 @@ h2:hover{
         list-style: none;
         display: none;
         color:#d3c499 ;
-        opacity: 70%;
+        
         font-size: 20px;
-        background-color: rgb(92, 91, 91);
+        background:rgba(0,0,0,0.6);
         border-radius: 15px;
     }
     .content1{
@@ -170,11 +170,11 @@ h2:hover{
         list-style: none;
         display: none;
         color:#d3c499 ;
-        opacity: 70%;
+        
         background-color: rosybrown;
         background-size: cover;
         font-size: 17px;
-        background-color: rgb(92, 91, 91);
+        background:rgba(0,0,0,0.6);
         border-radius: 15px;
     }
     .content2{
@@ -184,10 +184,10 @@ h2:hover{
         list-style: none;
         display: none;
         color:#d3c499 ;
-        opacity: 70%;
-        background-color: rgb(92, 91, 91);
+        
+        background:rgba(0,0,0,0.6);
         font-size: 17px;
-        background-color: rgb(92, 91, 91);
+        background:rgba(0,0,0,0.6);
         border-radius: 15px;
     }
     .content3{
@@ -197,9 +197,9 @@ h2:hover{
         list-style: none;
         display: none;
         color:#d3c499 ;
-        opacity: 70%;
+        
         font-size: 17px;
-        background-color: rgb(92, 91, 91);
+        background:rgba(0,0,0,0.6);
         border-radius: 15px;
     }
     .content4{
@@ -209,9 +209,9 @@ h2:hover{
         list-style: none;
         display: none;
         color:#d3c499 ;
-        opacity: 70%;
+        
         font-size: 17px;
-        background-color: rgb(92, 91, 91);
+        background:rgba(0,0,0,0.6);
         border-radius: 15px;
     }
     .content5{
@@ -221,9 +221,9 @@ h2:hover{
         list-style: none;
         display: none;
         color:#d3c499 ;
-        opacity: 70%;
+        
         font-size: 20px;
-        background-color: rgb(92, 91, 91);
+        background:rgba(0,0,0,0.6);
         border-radius: 15px;
     }
     .dahafazla{
@@ -385,3 +385,34 @@ h2:hover{
            
             background-size: cover;
         }
+        #contact{
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+        ul #contact{
+         
+            margin-top: 100px;
+            padding-top: 100px;
+            overflow: hidden;
+            background-color: #333;
+          }
+          
+          #contact li  {
+            float: left;
+            list-style-type: none;
+          }
+          
+         #contact li a {
+           
+            font-size: 40px;
+            text-align: center;
+            padding: 30px 16px;
+            text-decoration: none;
+          }
+          #contact li a  :hover{
+              font-size: 45px;
+          }
+          .map2{
+              margin-left: 50px;
+              padding-left: 50px;
+          }
